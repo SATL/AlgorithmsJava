@@ -1,4 +1,4 @@
-package programmingmodel;
+package fundamentals.programming_model;
 
 /******************************************************************************
  *  Compilation:  javac StdIn.java
