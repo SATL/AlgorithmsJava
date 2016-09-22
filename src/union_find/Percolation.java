@@ -24,11 +24,11 @@ public class Percolation {
     }
     
     public boolean isOpen(int i, int j){
-        
+        return true;
     }
     
     public boolean isFull(int i, int j){
-        
+        return true;
     }
     
     public static void main(String[] args){
