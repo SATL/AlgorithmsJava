@@ -42,7 +42,6 @@ public class Sattolo {
         static String[] readAllStrings() {
             Scanner input = new Scanner(System.in);
             ArrayList<String> list = new ArrayList<>();
-            int count = 0;
             String readString = input.nextLine();
             while (readString != null) {
                 if (readString.equals("")) {
@@ -54,6 +53,7 @@ public class Sattolo {
             }
             String[] arr = new String[list.size()];
             arr = list.toArray(arr);
+            input.close();
             return arr;
         }
     }

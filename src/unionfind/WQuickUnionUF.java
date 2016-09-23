@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package union_find;
+package unionfind;
 
 /**
  *
  * @author eslem
  */
-public class WQuickUnionPathCompressionUF {
+public class WQuickUnionUF {
 
     private int[] ids;
     private int[] sizes;
 
-    public WQuickUnionPathCompressionUF(int N) {
+    public WQuickUnionUF(int N) {
         ids = new int[N];
         sizes = new int[N];
         for (int i = 0; i < N; i++) {
@@ -25,7 +25,6 @@ public class WQuickUnionPathCompressionUF {
 
     private int getRoot(int i) {
         while (i != ids[i]) {
-            ids[i] = ids[ids[i]];
             i = ids[i];
         }
         return i;

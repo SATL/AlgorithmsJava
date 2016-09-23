@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package union_find;
+package unionfind;
 
 /**
  *
@@ -24,15 +24,16 @@ public class QuickFindUF {
         return ids[p] == ids[q];
     }
     
-    public void union(int p,  int q){
-        if(p>ids.length-1 || q>ids.length-1)
+    public void union(int p,  int q)
+    {
+        if (p > ids.length-1 || q > ids.length-1)
             throw new ArrayIndexOutOfBoundsException();
         
-        int idp=ids[p];
+        int idp = ids[p];
         int idq = ids[q];
         
-        for(int i=0; i<ids.length; i++)
-            if(ids[i]==idp) ids[i]=idq;
+        for (int i = 0; i < ids.length; i++)
+            if (ids[i] == idp) ids[i] = idq;
             
     }
 }

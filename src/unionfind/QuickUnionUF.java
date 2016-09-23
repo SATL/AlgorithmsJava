@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package union_find;
+package unionfind;
 
 /**
  *
@@ -12,23 +12,23 @@ package union_find;
 public class QuickUnionUF {
     private int[] ids;
     
-    public QuickUnionUF(int N){
-        ids = new int[N];
-        for(int i=0; i<N; i++)
+    public QuickUnionUF(int n) {
+        ids = new int[n];
+        for (int i = 0; i < n; i++)
             ids[i] = i;
     }
     
     
-    private int getRoot(int i){
-        while(i!=ids[i]) i =ids[i];
+    private int getRoot(int i) {
+        while (i != ids[i]) i = ids[i];
         return i;
     }
     
-    public boolean isConnected(int p, int q){
+    public boolean isConnected(int p, int q) {
         return getRoot(p) == getRoot(q);
     }
     
-    public void union(int p, int q){
+    public void union(int p, int q) {
         int i = getRoot(p);
         int j = getRoot(q);
         ids[i] = j;
