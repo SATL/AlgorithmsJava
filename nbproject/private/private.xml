@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="DAM">
-            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/PercolationStats.java</file>
-            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/Percolation.java</file>
-            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/PercolationVisualizer.java</file>
+            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/stacks_queues/StackOfStrings.java</file>
+            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/stacks_queues/ResizingArrayStackOfStrings.java</file>
+            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/stacks_queues/FixedCapacityStackOfStrings.java</file>
+            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/stacks_queues/LinkedQueueOfStrings.java</file>
+            <file>file:/E:/OneDrive/IT%20Study/Computer%20Science/Algorithms/Algorithms1/src/stacks_queues/LinkedStackOfStrings.java</file>
         </group>
     </open-files>
 </project-private>
